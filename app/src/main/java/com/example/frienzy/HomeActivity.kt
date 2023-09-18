@@ -9,8 +9,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.frienzy.Fragments.HomeFragment
-import com.example.frienzy.Fragments.ProfileFragment
+
 import com.example.frienzy.databinding.ActivityHomeBinding
 
 
@@ -25,7 +24,7 @@ class HomeActivity : AppCompatActivity() {
 
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+/*
         val bottomBar= findViewById<BottomNavigationView>(R.id.)
         bottomBar.setOnItemSelectedListener {menuItem ->
             if(menuItem.itemId == R.id. nav_guard){
@@ -47,7 +46,7 @@ class HomeActivity : AppCompatActivity() {
         bottomBar.selectedItemId=R.id.nav_home
 
 
-
+*/
 
     }
 
